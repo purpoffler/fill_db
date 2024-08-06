@@ -2,9 +2,9 @@ package example;
 import java.sql.*;
 
 public class DataBase {
-    private  String url = "jdbc:postgresql://127.0.0.1:5432/postgresdb";
-    private  String user_db = "postgres";
-    private  String password_db = "password";
+    private  final String url = "jdbc:postgresql://127.0.0.1:5432/postgresdb";
+    private  final String user_db = "postgres";
+    private  final String password_db = "password";
 
 
     public User select(String login) {
